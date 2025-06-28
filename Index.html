@@ -1,0 +1,1438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>multi jani</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- boot strap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!-- css  -->
+    <link rel="stylesheet" href="Assets/Css/App.css" />
+    <!-- style  -->
+    <style>
+        .dropdown:hover .dropdown-menu {
+            display: block;
+            margin-top: 0;
+        }
+    </style>
+</head>
+
+<body class="f_roboto">
+    <!-- start nav  -->
+    <nav class="navbar sticky-top bg-white shadow end-0">
+        <div class="container">
+            <div>
+                <h4 class="text-uppercase f_raleway fw-bold navbar-brand pt-3">
+                    multi
+                </h4>
+            </div>
+            <div class="d-flex align-items-center text-capitalize">
+                <ul class="nav f_pop f_14 d-none d-lg-flex">
+                    <li class="nav-item px-0">
+                        <a href="" class="nav-link text- px-0  orange_color">home</a>
+                    </li>
+                    <li class="nav-item px-0">
+                        <a href="#about" class="nav-link px-0  text-capitalize orange_color_hover text-dark">about</a>
+                    </li>
+                    <li class="nav-item px-0">
+                        <a href="#service" class="nav-link px-0 text-capitalize orange_color_hover text-dark">services</a>
+                    </li>
+                    <li class="nav-item px-0">
+                        <a href="#port" class="nav-link  px-0 text-capitalize orange_color_hover text-dark">portfolio</a>
+                    </li>
+                    <li class="nav-item px-0">
+                        <a href="#team" class="nav-link  px-0 text-capitalize orange_color_hover text-dark">team</a>
+                    </li>
+                    <li class="nav-item dropdown pe-0">
+                        <a href="" class="nav-link dropdown-toggle orange_color_hover text-dark pe-0"
+                            data-bs-toggle="dropdown">dropdown</a>
+                        <ul class="dropdown-menu position-absolute">
+                            <li><a href="" class="dropdown-item">dropdown1</a></li>
+                            <li class="dropstart">
+                                <a href="" class="nav-link dropdown-toggle orange_color_hover dropdown-item text-dark px-0"
+                                    data-bs-toggle="dropdown">deep dropdown</a>
+                                <ul class="dropdown-menu dropdown_menu">
+                                    <li><a href="" class="dropdown-item orange_color_hover">deep dropdown1</a></li>
+                                    <li><a href="" class="dropdown-item orange_color_hover">deep dropdown2</a></li>
+                                    <li><a href="" class="dropdown-item orange_color_hover">deep dropdown3</a></li>
+                                    <li><a href="" class="dropdown-item orange_color_hover">deep dropdown4</a></li>
+                                    <li><a href="" class="dropdown-item orange_color_hover">deep dropdown5</a></li>
+                                </ul>
+                            </li>
+                            <li class="p-1"><a href="" class="dropdown-item px-0">dropdown2</a></li>
+                            <li class="p-1"><a href="" class="dropdown-item px-0">dropdown3</a></li>
+                            <li class="p-1"><a href="" class="dropdown-item px-0">dropdown4</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link text-capitalize orange_color_hover text-dark">contact</a>
+                    </li>
+                </ul>
+                <a href="" class="btn orange_bg_color text-white text-capitalize f_14 px-4 rounded-1 g_button_nav">
+                    get started
+                </a>
+                <div class="offcanvas offcanvas-start" id="demo">
+                    <div class="offcanvas-header">
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav flex-column flex-row f_pop f_14">
+                            <li class="nav-item">
+                                <a href="" class="nav-link text-capitalize orange_color m-0 p-0">home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#about"
+                                    class="nav-link text-capitalize orange_color_hover text-dark m-0 p-0">about</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#service"
+                                    class="nav-link text-capitalize orange_color_hover text-dark m-0 p-0">services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#port"
+                                    class="nav-link text-capitalize orange_color_hover text-dark m-0 p-0">portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#team"
+                                    class="nav-link text-capitalize orange_color_hover text-dark m-0 p-0">team</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href=""
+                                    class="nav-link text-capitalize orange_color_hover text-dark m-0 p-0">contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <button class="btn btn-primary bg-transparent text-dark ms-3 border-0 fs-2 d-lg-none d-flex" type="button"
+                    data-bs-toggle="offcanvas" data-bs-target="#demo">
+                    <i class="bi bi-list"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <!-- end nav  -->
+    <!-- start header  -->
+    <header id="header" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#header" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#header" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#header" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner text-white">
+            <div
+                class="carousel-item active slide_1 slide_item d-flex justify-content-center align-items-center flex-column">
+                <h2 class="f_raleway fw-bold">Welcome to Multi</h2>
+                <p class="w_53 my-4 f_roboto text-center">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.
+                </p>
+                <a href="" class="btn orange_button">get started</a>
+            </div>
+            <div class="carousel-item slide_2 slide_item d-flex justify-content-center align-items-center flex-column">
+                <h2 class="f_raleway fw-bold text-center">At vero eos et accusamus</h2>
+                <p class="w_53 my-4 f_roboto">
+                    Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod
+                    maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus
+                    autem quibusdam et aut officiis debitis aut.
+                </p>
+                <a href="" class="btn orange_button">get started</a>
+            </div>
+            <div class="carousel-item slide_3 slide_item d-flex justify-content-center align-items-center flex-column">
+                <h2 class="f_raleway fw-bold text-center">Temporibus autem quibusdam</h2>
+                <p class="w_53 my-4 f_roboto">
+                    Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+                    aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt omnis iste
+                    natus error sit voluptatem accusantium.
+                </p>
+                <a href="" class="btn orange_button">get started</a>
+            </div>
+        </div>
+        <button class="carousel-control-prev m-0 p-0" type="button" data-bs-target="#header" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next m-0 p-0" type="button" data-bs-target="#header" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </header>
+    <!-- end header  -->
+    <!-- start about -->
+    <section class="about_us bg-white pb-5" id="about">
+        <div class="container">
+            <div class="sec_top mt-5">
+                <div class="d-flex align-items-center">
+                    <h2 class="f_raleway text-uppercase fw-light m-0">about</h2>
+                    <div class="orange_bg_color text-center pb-0 ms-2 my_line"></div>
+                </div>
+                <div class="sec_top2 fw-bold m-0 text-uppercase">
+                    <span class="f_raleway">Learn More About Us</span>
+                </div>
+            </div>
+            <div class="row my-5 row-cols-1 row-cols-md-2">
+                <div class="col">
+                    <div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.
+                        </p>
+                        <ul class="list-unstyled">
+                            <li class="check_item mb-2">
+                                <i class="bi bi-check2-circle orange_color"></i>
+                                <span class="">Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+                            </li>
+                            <li class="check_item mb-2">
+                                <i class="bi bi-check2-circle orange_color"></i>
+                                <span class="">Duis aute irure dolor in reprehenderit in voluptate velit.</span>
+                            </li>
+                            <li class="check_item mb-2">
+                                <i class="bi bi-check2-circle orange_color"></i>
+                                <span class="">Ullamco laboris nisi ut aliquip ex ea commodo</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="about_right">
+                        <p>
+                            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                            laborum.
+                        </p>
+                        <a href="" class="btn orange_button text-capitalize icon-link icon-link-hover">read more
+                            <i class="bi bi-arrow-right icon_link"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row gx-3 gy-1 row-cols-1 row-cols-md-2 row-cols-lg-4 mt-5 py-5">
+                <div class="sec2_box">
+                    <div
+                        class="col text-capitalize shadow d-flex flex-column justify-content-center align-items-center py-3 position-relative my-5 rounded about_col_item">
+                        <div
+                            class="box_icon d-flex align-items-center justify-content-center shadow rounded-circle position-absolute top-0 translate-middle-y ">
+                            <i class="bi bi-emoji-smile orange_color fs-4"></i>
+                        </div>
+                        <span class="fw-bolder fs-2 color_gray2 my-2 mt-3">232</span>
+                        <p class="f_raleway">Happy Clients</p>
+                    </div>
+                </div>
+                <div class="sec2_box">
+                    <div
+                        class="col text-capitalize shadow d-flex flex-column justify-content-center align-items-center py-3 position-relative my-5 rounded about_col_item">
+                        <div
+                            class="box_icon d-flex align-items-center justify-content-center shadow rounded-circle position-absolute top-0 translate-middle-y ">
+                            <i class="bi bi-journal-richtext orange_color fs-4"></i>
+                        </div>
+                        <span class="fw-bolder fs-2 color_gray2 my-2 mt-3">521</span>
+                        <p class="f_raleway">Projects</p>
+                    </div>
+                </div>
+                <div class="sec2_box">
+                    <div
+                        class="col text-capitalize shadow d-flex flex-column justify-content-center align-items-center py-3 position-relative my-5 rounded about_col_item">
+                        <div
+                            class="box_icon d-flex align-items-center justify-content-center shadow rounded-circle position-absolute top-0 translate-middle-y ">
+                            <i class="bi bi-headset orange_color fs-4"></i>
+                        </div>
+                        <span class="fw-bolder fs-2 color_gray2 my-2 mt-3">1463</span>
+                        <p class="f_raleway">Hours Of Support</p>
+                    </div>
+                </div>
+                <div class="sec2_box">
+                    <div
+                        class="col text-capitalize shadow d-flex flex-column justify-content-center align-items-center py-3 position-relative my-5 rounded about_col_item">
+                        <div
+                            class="box_icon d-flex align-items-center justify-content-center shadow rounded-circle position-absolute top-0 translate-middle-y ">
+                            <i class="bi bi-people-fill orange_color fs-4"></i>
+                        </div>
+                        <span class="fw-bolder fs-2 color_gray2 my-2 mt-3">15</span>
+                        <p class="f_raleway">Hard Workers</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 gy-3 gy-md-4 pt-5">
+                <div>
+                    <div class="col about_sec3_item">
+                        <h3 class="color_black_blue f_raleway fw-bold">Quasi eaque omnis</h3>
+                        <p class="color_gray">
+                            Eius non minus autem soluta ut ui labore omnis quisquam corrupti autem odit voluptas quos
+                            commodi magnam occaecati.
+                        </p>
+                        <ul class="list-unstyled">
+                            <li class="pb-2">
+                                <i class="bi bi-check2 orange_color"></i>
+                                <span class="color_gray">Ullamco laboris nisi ut aliquip</span>
+                            </li>
+                            <li class="pb-2">
+                                <i class="bi bi-check2 orange_color"></i>
+                                <span class="color_gray">Duis aute irure dolor in reprehenderit</span>
+                            </li>
+                            <li class="pb-2">
+                                <i class="bi bi-check2 orange_color"></i>
+                                <span class="color_gray">Ullamco laboris nisi ut aliquip ex ea</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div class="col about_sec3_item">
+                        <h3 class="color_black_blue f_raleway fw-bold">Et nemo dolores consectetur</h3>
+                        <p class="color_gray">
+                            Ducimus ea quam et occaecati est. Temporibus in soluta labore voluptates aut. Et sit soluta
+                            non repellat sed quia dire plovers tradoria
+                        </p>
+                        <ul class="list-unstyled">
+                            <li class="pb-2">
+                                <i class="bi bi-check2 orange_color"></i>
+                                <span class="color_gray">Enim temporibus maiores eligendi
+                                </span>
+                            </li>
+                            <li class="pb-2">
+                                <i class="bi bi-check2 orange_color"></i>
+                                <span class="color_gray">Ut maxime ut quibusdam quam qui</span>
+                            </li>
+                            <li class="pb-2">
+                                <i class="bi bi-check2 orange_color"></i>
+                                <span class="color_gray">Officiis aspernatur in officiis</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div class="col about_sec3_item">
+                        <h3 class="color_black_blue f_raleway fw-bold">Staque laboriosam modi</h3>
+                        <p class="color_gray">
+                            Velit eos error et dolor omnis voluptates nobis tenetur sed enim nihil vero qui suscipit
+                            ipsum at magni. Ipsa architecto consequatur aliquam
+                        </p>
+                        <ul class="list-unstyled">
+                            <li class="pb-2 d-flex align-items-center">
+                                <i class="bi bi-check2 orange_color"></i>
+                                <span class="color_gray">Quis voluptates laboriosam numquam</span>
+                            </li>
+                            <li class="pb-2">
+                                <i class="bi bi-check2 orange_color"></i>
+                                <span class="color_gray">Debitis eos est est corrupti</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div class="col about_sec3_item">
+                        <h3 class="color_black_blue f_raleway fw-bold">Dignissimos suscipit iste</h3>
+                        <p class="color_gray">
+                            Molestiae occaecati assumenda quia saepe nobis recusandae at dicta ducimus sequi numquam
+                            commodi est in consequatur ea magnam quia itaque
+                        </p>
+                        <ul class="list-unstyled">
+                            <li class="pb-2">
+                                <i class="bi bi-check2 orange_color"></i>
+                                <span class="color_gray">Veritatis qui reprehenderit quis</span>
+                            </li>
+                            <li class="pb-2 d-flex align-items-center">
+                                <i class="bi bi-check2 orange_color"></i>
+                                <span class="color_gray">Accusantium vel numquam sunt minus</span>
+                            </li>
+                            <li class="pb-2">
+                                <i class="bi bi-check2 orange_color"></i>
+                                <span class="color_gray">Voluptatem pariatur est sationem</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end about -->
+    <!-- start services  -->
+    <section class="services bg-white pb-5" id="service">
+        <div class="container">
+            <div class="sec_top mt-5">
+                <div class="d-flex align-items-center">
+                    <h2 class="f_raleway text-uppercase fw-light m-0">Services</h2>
+                    <div class="orange_bg_color text-center pb-0 ms-2 my_line"></div>
+                </div>
+                <div class="sec_top2 fw-bold m-0 text-uppercase">
+                    <span class="f_raleway">Check Our Services</span>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 pt-5 gy-5 gx-4">
+                <div class="mt-4 px-2">
+                    <div class="col">
+                        <div
+                            class="service_item d-flex flex-column align-items-center justify-content-center py-1 px-4 text-center pt-3">
+                            <div class="service_box_icon rounded d-flex align-items-center justify-content-center mt-0">
+                                <i class="bi bi-activity"></i>
+                            </div>
+                            <h3 class="color_blue_black my-3 fw-bold">Nesciunt Mete</h3>
+                            <p class="color_gray">
+                                Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores
+                                iure perferendis tempore et consequatur.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-4 px-2">
+                    <div class="col">
+                        <div
+                            class="service_item d-flex flex-column align-items-center justify-content-center py-1 px-4 text-center pt-3">
+                            <div class="service_box_icon rounded d-flex align-items-center justify-content-center mt-0">
+                                <i class="bi bi-broadcast"></i>
+                            </div>
+                            <h3 class="color_blue_black my-3 fw-bold">Eosle Commodi</h3>
+                            <p class="color_gray">
+                                Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque
+                                eum hic non ut nesciunt dolorem.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-4 px-2">
+                    <div class="col">
+                        <div
+                            class="service_item d-flex flex-column align-items-center justify-content-center py-1 px-4 text-center pt-3">
+                            <div class="service_box_icon rounded d-flex align-items-center justify-content-center mt-0">
+                                <i class="bi bi-easel"></i>
+                            </div>
+                            <h3 class="color_blue_black my-3 fw-bold">Ledo Markt</h3>
+                            <p class="color_gray">
+                                Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id
+                                voluptas adipisci eos earum corrupti.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-4 px-2">
+                    <div class="col">
+                        <div
+                            class="service_item d-flex flex-column align-items-center justify-content-center py-1 px-4 text-center pt-3">
+                            <div class="service_box_icon rounded d-flex align-items-center justify-content-center mt-0">
+                                <i class="bi bi-bounding-box-circles"></i>
+                            </div>
+                            <h3 class="color_blue_black my-3 fw-bold">Asperiores Commodit</h3>
+                            <p class="color_gray">
+                                Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga
+                                sit provident adipisci neque.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-4 px-2">
+                    <div class="col">
+                        <div
+                            class="service_item d-flex flex-column align-items-center justify-content-center py-1 px-4 text-center pt-3">
+                            <div class="service_box_icon rounded d-flex align-items-center justify-content-center mt-0">
+                                <i class="bi bi-calendar4-week"></i>
+                            </div>
+                            <h3 class="color_blue_black my-3 fw-bold">Velit Doloremque</h3>
+                            <p class="color_gray">
+                                Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed
+                                animi at autem alias eius labore.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-4 px-2">
+                    <div class="col">
+                        <div
+                            class="service_item d-flex flex-column align-items-center justify-content-center py-1 px-4 text-center pt-3">
+                            <div class="service_box_icon rounded d-flex align-items-center justify-content-center mt-0">
+                                <i class="bi bi-chat-square-text"></i>
+                            </div>
+                            <h3 class="color_blue_black my-3 fw-bold">Dolori Architecto</h3>
+                            <p class="color_gray">
+                                Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure.
+                                Corrupti recusandae ducimus enim.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end services  -->
+    <!-- start testimonials  -->
+    <section class="testimonials pt-3 mt-1 pb-5">
+        <div class="container">
+            <div class="sec_top mt-5">
+                <div class="d-flex align-items-center">
+                    <h2 class="f_raleway text-uppercase fw-light m-0">Testimonials</h2>
+                    <div class="orange_bg_color text-center pb-0 ms-2 my_line"></div>
+                </div>
+                <div class="sec_top2 fw-bold m-0 text-uppercase">
+                    <span class="f_raleway">Check Our Testimonials</span>
+                </div>
+            </div>
+            <div id="testi" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators carousel_indicator_box mt-4 position-absolute">
+                    <button type="button" data-bs-target="#testi" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" class="btn-outline-danger" data-bs-target="#testi"
+                        data-bs-slide-to="1"></button>
+                    <button type="button" class="btn-outline-danger" data-bs-target="#testi"
+                        data-bs-slide-to="2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row row-cols-1 row-cols-lg-2 px-5">
+                            <div class="m-0 pe-5 box_item_testi">
+                                <div class="col carousel_item_testi shadow ms-0 p-5 py-4 my-4 position-relative">
+                                    <div class="box_img_testi position-absolute translate-middle-x ">
+                                        <img src="Assets/Imgs/testimonials-1.jpg" class="img-fluid img-thumbnail"
+                                            alt="support-1">
+                                    </div>
+                                    <h3 class="color_black_blue f_raleway fw-bold">Saul Goodman</h3>
+                                    <h4 class="f_raleway color_sec">Ceo & Founder</h4>
+                                    <div class="icon_testi_box">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                    <p class="m-0 p-0">
+                                        <i class="bi bi-quote icon_q"></i>Proin iaculis purus consequat sem cure digni
+                                        ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget
+                                        id, aliquam eget nibh et. Maecen aliquam, risus at semper.<i
+                                            class="bi bi-quote icon_q icon_q_2"></i>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="m-0 ps-5 box_item_testi">
+                                <div class="col carousel_item_testi shadow ms-0 p-5 py-4 my-4 position-relative">
+                                    <div class="box_img_testi position-absolute translate-middle-x ">
+                                        <img src="Assets/Imgs/testimonials-1.jpg" class="img-fluid img-thumbnail"
+                                            alt="support-1">
+                                    </div>
+                                    <h3 class="color_black_blue f_raleway fw-bold">Saul Goodman</h3>
+                                    <h4 class="f_raleway color_sec">Ceo & Founder</h4>
+                                    <div class="icon_testi_box">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                    <p class="m-0 p-0">
+                                        <i class="bi bi-quote icon_q"></i>Proin iaculis purus consequat sem cure digni
+                                        ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget
+                                        id, aliquam eget nibh et. Maecen aliquam, risus at semper.<i
+                                            class="bi bi-quote icon_q icon_q_2"></i>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row row-cols-1 row-cols-lg-2 px-5">
+                            <div class="m-0 pe-5 box_item_testi">
+                                <div class="col carousel_item_testi shadow ms-0 p-5 py-4 my-4 position-relative">
+                                    <div class="box_img_testi position-absolute translate-middle-x ">
+                                        <img src="Assets/Imgs/testimonials-1.jpg" class="img-fluid img-thumbnail"
+                                            alt="support-1">
+                                    </div>
+                                    <h3 class="color_black_blue f_raleway fw-bold">Saul Goodman</h3>
+                                    <h4 class="f_raleway color_sec">Ceo & Founder</h4>
+                                    <div class="icon_testi_box">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                    <p class="m-0 p-0">
+                                        <i class="bi bi-quote icon_q"></i>Proin iaculis purus consequat sem cure digni
+                                        ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget
+                                        id, aliquam eget nibh et. Maecen aliquam, risus at semper.<i
+                                            class="bi bi-quote icon_q icon_q_2"></i>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="m-0 ps-5 box_item_testi">
+                                <div class="col carousel_item_testi shadow ms-0 p-5 py-4 my-4 position-relative">
+                                    <div class="box_img_testi position-absolute translate-middle-x ">
+                                        <img src="Assets/Imgs/testimonials-1.jpg" class="img-fluid img-thumbnail"
+                                            alt="support-1">
+                                    </div>
+                                    <h3 class="color_black_blue f_raleway fw-bold">Saul Goodman</h3>
+                                    <h4 class="f_raleway color_sec">Ceo & Founder</h4>
+                                    <div class="icon_testi_box">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                    <p class="m-0 p-0">
+                                        <i class="bi bi-quote icon_q"></i>Proin iaculis purus consequat sem cure digni
+                                        ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget
+                                        id, aliquam eget nibh et. Maecen aliquam, risus at semper.<i
+                                            class="bi bi-quote icon_q icon_q_2"></i>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item active">
+                        <div class="row row-cols-1 row-cols-lg-2 px-5">
+                            <div class="m-0 pe-5 box_item_testi">
+                                <div class="col carousel_item_testi shadow ms-0 p-5 py-4 my-4 position-relative">
+                                    <div class="box_img_testi position-absolute translate-middle-x ">
+                                        <img src="Assets/Imgs/testimonials-1.jpg" class="img-fluid img-thumbnail"
+                                            alt="support-1">
+                                    </div>
+                                    <h3 class="color_black_blue f_raleway fw-bold">Saul Goodman</h3>
+                                    <h4 class="f_raleway color_sec">Ceo & Founder</h4>
+                                    <div class="icon_testi_box">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                    <p class="m-0 p-0">
+                                        <i class="bi bi-quote icon_q"></i>Proin iaculis purus consequat sem cure digni
+                                        ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget
+                                        id, aliquam eget nibh et. Maecen aliquam, risus at semper.<i
+                                            class="bi bi-quote icon_q icon_q_2"></i>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="m-0 ps-5 box_item_testi">
+                                <div class="col carousel_item_testi shadow ms-0 p-5 py-4 my-4 position-relative">
+                                    <div class="box_img_testi position-absolute translate-middle-x ">
+                                        <img src="Assets/Imgs/testimonials-1.jpg" class="img-fluid img-thumbnail"
+                                            alt="support-1">
+                                    </div>
+                                    <h3 class="color_black_blue f_raleway fw-bold">Saul Goodman</h3>
+                                    <h4 class="f_raleway color_sec">Ceo & Founder</h4>
+                                    <div class="icon_testi_box">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                    <p class="m-0 p-0">
+                                        <i class="bi bi-quote icon_q"></i>Proin iaculis purus consequat sem cure digni
+                                        ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget
+                                        id, aliquam eget nibh et. Maecen aliquam, risus at semper.<i
+                                            class="bi bi-quote icon_q icon_q_2"></i>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end testimonials  -->
+    <!-- start call  -->
+    <section class="call_to text-capitalize">
+        <div class="container">
+            <div class="d-flex flex-column justify-content-center align-items-center text-center py-5 text-white">
+                <h3 class="m-0 p-0 f_raleway fw-bold">call to action</h3>
+                <p>
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                    anim id est laborum.
+                </p>
+                <a href="" class="btn orange_button f_raleway">call to action</a>
+            </div>
+        </div>
+    </section>
+    <!-- end call  -->
+    <!-- start portfolio  -->
+    <section class="portfolio mb-5" id="port">
+        <div class="container">
+            <div class="sec_top mt-5">
+                <div class="d-flex align-items-center">
+                    <h2 class="f_raleway text-uppercase fw-light m-0">Portfolio</h2>
+                    <div class="orange_bg_color text-center pb-0 ms-2 my_line"></div>
+                </div>
+                <div class="sec_top2 fw-bold m-0 text-uppercase">
+                    <span class="f_raleway">Check Our Portfolio</span>
+                </div>
+            </div>
+            <ul class="nav d-flex justify-content-center fw-bolder list_port text-capitalize mb-4">
+                <li class="nav-item">
+                    <a class="nav-link active list_port orange_color_hover" data-bs-toggle="tab" href="#all">all</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link list_port orange_color_hover" data-bs-toggle="tab" href="#app">app</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link list_port orange_color_hover" data-bs-toggle="tab" href="#product">product</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link list_port orange_color_hover" data-bs-toggle="tab" href="#brand">branding</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link list_port orange_color_hover" data-bs-toggle="tab" href="#book">books</a>
+                </li>
+            </ul>
+
+            <div class="tab-content">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 gy-3">
+                    <div class="col">
+                        <div class="text-capitalize port_item shadow active">
+                            <div class="overflow-hidden box_img_port">
+                                <img src="Assets/Imgs/app-1.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="ps-3 py-3 pt-4">
+                                <h3 class="f_raleway fw-bold">app 1</h3>
+                                <p class="color_gray">Lorem ipsum, dolor sit amet consectetur</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="text-capitalize port_item shadow active" id=>
+                            <div class="overflow-hidden box_img_port">
+                                <img src="Assets/Imgs/product-1.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="ps-3 py-3 pt-4">
+                                <h3 class="f_raleway fw-bold">product 1</h3>
+                                <p class="color_gray">Lorem ipsum, dolor sit amet consectetur</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="text-capitalize port_item shadow active">
+                            <div class="overflow-hidden box_img_port">
+                                <img src="Assets/Imgs/branding-1.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="ps-3 py-3 pt-4">
+                                <h3 class="f_raleway fw-bold">branding 1</h3>
+                                <p class="color_gray">Lorem ipsum, dolor sit amet consectetur</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="text-capitalize port_item shadow active">
+                            <div class="overflow-hidden box_img_port">
+                                <img src="Assets/Imgs/books-1.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="ps-3 py-3 pt-4">
+                                <h3 class="f_raleway fw-bold">books 1</h3>
+                                <p class="color_gray">Lorem ipsum, dolor sit amet consectetur</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="text-capitalize port_item shadow active">
+                            <div class="overflow-hidden box_img_port">
+                                <img src="Assets/Imgs/app-2.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="ps-3 py-3 pt-4">
+                                <h3 class="f_raleway fw-bold">app 2</h3>
+                                <p class="color_gray">Lorem ipsum, dolor sit amet consectetur</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="text-capitalize port_item shadow active">
+                            <div class="overflow-hidden box_img_port">
+                                <img src="Assets/Imgs/product-2.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="ps-3 py-3 pt-4">
+                                <h3 class="f_raleway fw-bold">product 2</h3>
+                                <p class="color_gray">Lorem ipsum, dolor sit amet consectetur</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="text-capitalize port_item shadow active">
+                            <div class="overflow-hidden box_img_port">
+                                <img src="Assets/Imgs/branding-2.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="ps-3 py-3 pt-4">
+                                <h3 class="f_raleway fw-bold">branding 2</h3>
+                                <p class="color_gray">Lorem ipsum, dolor sit amet consectetur</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="text-capitalize port_item shadow active">
+                            <div class="overflow-hidden box_img_port">
+                                <img src="Assets/Imgs/app-1.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="ps-3 py-3 pt-4">
+                                <h3 class="f_raleway fw-bold">app 1</h3>
+                                <p class="color_gray">Lorem ipsum, dolor sit amet consectetur</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="text-capitalize port_item shadow active">
+                            <div class="overflow-hidden box_img_port">
+                                <img src="Assets/Imgs/books-2.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="ps-3 py-3 pt-4">
+                                <h3 class="f_raleway fw-bold">books 2</h3>
+                                <p class="color_gray">Lorem ipsum, dolor sit amet consectetur</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="text-capitalize port_item shadow active">
+                            <div class="overflow-hidden box_img_port">
+                                <img src="Assets/Imgs/app-3.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="ps-3 py-3 pt-4">
+                                <h3 class="f_raleway fw-bold">app 3</h3>
+                                <p class="color_gray">Lorem ipsum, dolor sit amet consectetur</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="text-capitalize port_item shadow active">
+                            <div class="overflow-hidden box_img_port">
+                                <img src="Assets/Imgs/product-3.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="ps-3 py-3 pt-4">
+                                <h3 class="f_raleway fw-bold">product 3</h3>
+                                <p class="color_gray">Lorem ipsum, dolor sit amet consectetur</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="text-capitalize port_item shadow active">
+                            <div class="overflow-hidden box_img_port">
+                                <img src="Assets/Imgs/books-3.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="ps-3 py-3 pt-4">
+                                <h3 class="f_raleway fw-bold">books 3</h3>
+                                <p class="color_gray">Lorem ipsum, dolor sit amet consectetur</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- end portfolio  -->
+    <!-- strat team  -->
+    <section class="team_ pt-4" id="team">
+        <div class="container">
+            <div class="sec_top mt-5">
+                <div class="d-flex align-items-center">
+                    <h2 class="f_raleway text-uppercase fw-light m-0">Team</h2>
+                    <div class="orange_bg_color text-center pb-0 ms-2 my_line"></div>
+                </div>
+                <div class="sec_top2 fw-bold m-0 text-uppercase">
+                    <span class="f_raleway">Check Our Team</span>
+                </div>
+            </div>
+            <div class="row g-md-4 g-3 pt-4 row-cols-1 row-cols-md-2 row-cols-lg-4">
+                <div class="col">
+                    <div class="position-relative team_item overflow-hidden">
+                        <div>
+                            <img src="Assets/Imgs/team-1.jpg" class="img-fluid" alt="team1">
+                        </div>
+                        <div class="team_overlay1">
+                            <div class="d-flex flex-column position-absolute text-white box_text_team text-center">
+                                <span class="f_raleway fw-bolder name_team">Walter White</span>
+                                <span class="work_team color_4">Chief Executive Officer</span>
+                            </div>
+                        </div>
+                        <div
+                            class="team_overlay2 w_20 position-absolute top-0 d-flex flex-column align-items-center py-4 h-100">
+                            <ul class="list-unstyled">
+                                <li class="pb-2">
+                                    <a href="" class="">
+                                        <i class="bi bi-twitter-x text-white orange_color_hover fs-5"></i>
+                                    </a>
+                                </li>
+                                <li class="pb-2">
+                                    <a href="" class="">
+                                        <i class="bi bi-facebook text-white orange_color_hover fs-5"></i>
+                                    </a>
+                                </li>
+                                <li class="pb-2">
+                                    <a href="" class="">
+                                        <i class="bi bi-instagram text-white orange_color_hover fs-5"></i>
+                                    </a>
+                                </li>
+                                <li class="pb-2">
+                                    <a href="" class="">
+                                        <i class="bi bi-linkedin text-white orange_color_hover fs-5"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="position-relative team_item overflow-hidden">
+                        <div>
+                            <img src="Assets/Imgs/team-2.jpg" class="img-fluid" alt="team1">
+                        </div>
+                        <div class="team_overlay1">
+                            <div class="d-flex flex-column position-absolute text-white box_text_team text-center">
+                                <span class="f_raleway fw-bolder name_team">Sarah Jhonson</span>
+                                <span class="work_team color_4">Product Manager</span>
+                            </div>
+                        </div>
+                        <div
+                            class="team_overlay2 w_20 position-absolute top-0 d-flex flex-column align-items-center py-4 h-100">
+                            <ul class="list-unstyled">
+                                <li class="pb-2">
+                                    <a href="" class="">
+                                        <i class="bi bi-twitter-x text-white orange_color_hover fs-5"></i>
+                                    </a>
+                                </li>
+                                <li class="pb-2">
+                                    <a href="" class="">
+                                        <i class="bi bi-facebook text-white orange_color_hover fs-5"></i>
+                                    </a>
+                                </li>
+                                <li class="pb-2">
+                                    <a href="" class="">
+                                        <i class="bi bi-instagram text-white orange_color_hover fs-5"></i>
+                                    </a>
+                                </li>
+                                <li class="pb-2">
+                                    <a href="" class="">
+                                        <i class="bi bi-linkedin text-white orange_color_hover fs-5"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="position-relative team_item overflow-hidden">
+                        <div>
+                            <img src="Assets/Imgs/team-3.jpg" class="img-fluid" alt="team1">
+                        </div>
+                        <div class="team_overlay1">
+                            <div class="d-flex flex-column position-absolute text-white box_text_team text-center">
+                                <span class="f_raleway fw-bolder name_team">William Anderson</span>
+                                <span class="work_team color_4">CTO</span>
+                            </div>
+                        </div>
+                        <div
+                            class="team_overlay2 w_20 position-absolute top-0 d-flex flex-column align-items-center py-4 h-100">
+                            <ul class="list-unstyled">
+                                <li class="pb-2">
+                                    <a href="" class="">
+                                        <i class="bi bi-twitter-x text-white orange_color_hover fs-5"></i>
+                                    </a>
+                                </li>
+                                <li class="pb-2">
+                                    <a href="" class="">
+                                        <i class="bi bi-facebook text-white orange_color_hover fs-5"></i>
+                                    </a>
+                                </li>
+                                <li class="pb-2">
+                                    <a href="" class="">
+                                        <i class="bi bi-instagram text-white orange_color_hover fs-5"></i>
+                                    </a>
+                                </li>
+                                <li class="pb-2">
+                                    <a href="" class="">
+                                        <i class="bi bi-linkedin text-white orange_color_hover fs-5"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="position-relative team_item overflow-hidden">
+                        <div>
+                            <img src="Assets/Imgs/team-4.jpg" class="img-fluid" alt="team1">
+                        </div>
+                        <div class="team_overlay1">
+                            <div class="d-flex flex-column position-absolute text-white box_text_team text-center">
+                                <span class="f_raleway fw-bolder name_team">Amanda Jepson</span>
+                                <span class="work_team color_4">Accountant</span>
+                            </div>
+                        </div>
+                        <div
+                            class="team_overlay2 w_20 position-absolute top-0 d-flex flex-column align-items-center py-4 h-100">
+                            <ul class="list-unstyled">
+                                <li class="pb-2">
+                                    <a href="" class="">
+                                        <i class="bi bi-twitter-x text-white orange_color_hover fs-5"></i>
+                                    </a>
+                                </li>
+                                <li class="pb-2">
+                                    <a href="" class="">
+                                        <i class="bi bi-facebook text-white orange_color_hover fs-5"></i>
+                                    </a>
+                                </li>
+                                <li class="pb-2">
+                                    <a href="" class="">
+                                        <i class="bi bi-instagram text-white orange_color_hover fs-5"></i>
+                                    </a>
+                                </li>
+                                <li class="pb-2">
+                                    <a href="" class="">
+                                        <i class="bi bi-linkedin text-white orange_color_hover fs-5"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end team  -->
+    <!-- start pricing  -->
+    <section class="pricing mt-5 mb-5">
+        <div class="container">
+            <div class="sec_top mt-5">
+                <div class="d-flex align-items-center">
+                    <h2 class="f_raleway text-uppercase fw-light m-0">Pricing</h2>
+                    <div class="orange_bg_color text-center pb-0 ms-2 my_line"></div>
+                </div>
+                <div class="sec_top2 fw-bold m-0 text-uppercase">
+                    <span class="f_raleway">check our Pricing</span>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-lg-3 g-4">
+                <div class="col">
+                    <div class="pricing_item shadow p-5 px-5 text-capitalize mt-3">
+                        <span class="d-block f_raleway span1_pricing_item color_black_blue fw-semibold mt-4">Free
+                            Plan</span>
+                        <div class="my-2">
+                            <sup class="orange_color fs-2 f_raleway">$</sup><span
+                                class="orange_color span2_pricing_item f_raleway">0</span><span
+                                class="color_gray f_18 fw-light">/ month</span>
+                        </div>
+                        <ul class="list-unstyled color_sec text-nowrap">
+                            <li class="d-flex align-items-center">
+                                <i class="bi bi-check color_green f_18"></i><span>Quam adipiscing vitae proin</span>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <i class="bi bi-check color_green f_18"></i><span>Nec feugiat nisl pretium</span>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <i class="bi bi-check color_green f_18"></i><span>Nulla at volutpat diam uteera</span>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <i class="bi bi-x color_gray f_18"></i><span
+                                    class="text-decoration-line-through">Pharetra massa massa ultricies</span>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <i class="bi bi-x color_gray f_18"></i><span class="text-decoration-line-through">Massa
+                                    ultricies mi quis hendrerit</span>
+                            </li>
+                        </ul>
+                        <a href="" class="text-capitalize btn f_raleway button_border rounded-1 fw-medium my-3">buy
+                            now</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="pricing_item pricing_item_center shadow p-5 px-5 text-capitalize mt-3">
+                        <span class="d-block f_raleway span1_pricing_item color_black_blue fw-semibold mt-4">Business
+                            Plan</span>
+                        <div class="my-2">
+                            <sup class="orange_color fs-2 f_raleway">$</sup><span
+                                class="orange_color span2_pricing_item f_raleway">29</span><span
+                                class="color_gray f_18 fw-light">/ month</span>
+                        </div>
+                        <ul class="list-unstyled color_sec text-nowrap">
+                            <li class="d-flex align-items-center">
+                                <i class="bi bi-check color_green f_18"></i><span>Quam adipiscing vitae proin</span>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <i class="bi bi-check color_green f_18"></i><span>Nec feugiat nisl pretium</span>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <i class="bi bi-check color_green f_18"></i><span>Nulla at volutpat diam uteera</span>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <i class="bi bi-check color_green f_18"></i><span>Pharetra massa massa ultricies</span>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <i class="bi bi-check color_green f_18"></i><span>Massa ultricies mi quis
+                                    hendrerit</span>
+                            </li>
+                        </ul>
+                        <a href=""
+                            class="text-capitalize btn f_raleway orange_button_unhover rounded-1 fw-medium my-3">buy
+                            now</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="pricing_item shadow p-5 px-5 text-capitalize mt-3">
+                        <span class="d-block f_raleway span1_pricing_item color_black_blue fw-semibold mt-4">Developer
+                            Plan</span>
+                        <div class="my-2">
+                            <sup class="orange_color fs-2 f_raleway">$</sup><span
+                                class="orange_color span2_pricing_item f_raleway">49</span><span
+                                class="color_gray f_18 fw-light">/ month</span>
+                        </div>
+                        <ul class="list-unstyled color_sec text-nowrap">
+                            <li class="d-flex align-items-center">
+                                <i class="bi bi-check color_green f_18"></i><span>Quam adipiscing vitae proin</span>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <i class="bi bi-check color_green f_18"></i><span>Nec feugiat nisl pretium</span>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <i class="bi bi-check color_green f_18"></i><span>Nulla at volutpat diam uteera</span>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <i class="bi bi-check color_green f_18"></i><span>Pharetra massa massa ultricies</span>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <i class="bi bi-check color_green f_18"></i><span>Massa ultricies mi quis
+                                    hendrerit</span>
+                            </li>
+                        </ul>
+                        <a href="" class="text-capitalize btn f_raleway button_border rounded-1 fw-medium my-3">buy
+                            now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end pricing  -->
+    <!-- start Questions -->
+    <section class="ques mt-5 mb-5 pt-4">
+        <div class="container">
+            <div class="sec_top mt-5">
+                <div class="d-flex align-items-center">
+                    <h2 class="f_raleway text-uppercase fw-light m-0">Frequently Asked Questions</h2>
+                    <div class="orange_bg_color text-center pb-0 ms-2 my_line"></div>
+                </div>
+                <div class="sec_top2 fw-bold m-0 text-uppercase">
+                    <span class="f_raleway">Frequently Asked Questions</span>
+                </div>
+            </div>
+            <div class="row pt-4 row-cols-1">
+                <div class="col py-3">
+                    <div class="row mb-4 gy-4">
+                        <div class="col col-12 col-lg-5 d-flex">
+                            <div
+                                class="box_icon_ques d-flex justify-content-center align-items-center rounded-circle orange_color me-3">
+                                <i class="bi bi-question fs-5"></i>
+                            </div>
+                            <span class="f_raleway fw-bold span_left_ques">Non consectetur a erat nam at lectus urna
+                                duis?</span>
+                        </div>
+                        <div class="col col-12 col-lg-7">
+                            <p class="p_right_ques color_4">
+                                Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non
+                                curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus
+                                non.
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+                <div class="col py-3">
+                    <div class="row mb-4 gy-4">
+                        <div class="col col-lg-5 col-12 d-flex">
+                            <div
+                                class="box_icon_ques d-flex justify-content-center align-items-center rounded-circle orange_color me-3">
+                                <i class="bi bi-question fs-5"></i>
+                            </div>
+                            <span class="f_raleway fw-bold span_left_ques">Feugiat scelerisque varius morbi enim nunc
+                                faucibus a pellentesque?</span>
+                        </div>
+                        <div class="col col-12 col-lg-7">
+                            <p class="p_right_ques color_4">
+                                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum
+                                velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec
+                                pretium. Est pellentesque elit ullamcorper dignissim.
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+                <div class="col py-3">
+                    <div class="row mb-4 gy-4">
+                        <div class="col col-lg-5 col-12 d-flex">
+                            <div
+                                class="box_icon_ques d-flex justify-content-center align-items-center rounded-circle orange_color me-3">
+                                <i class="bi bi-question fs-5"></i>
+                            </div>
+                            <span class="f_raleway fw-bold span_left_ques">Dolor sit amet consectetur adipiscing elit
+                                pellentesque habitant morbi?</span>
+                        </div>
+                        <div class="col col-12 col-lg-7">
+                            <p class="p_right_ques color_4">
+                                Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus
+                                pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum
+                                tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus.
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+                <div class="col py-3">
+                    <div class="row mb-4 gy-4">
+                        <div class="col col-lg-5 col-12 d-flex">
+                            <div
+                                class="box_icon_ques d-flex justify-content-center align-items-center rounded-circle orange_color me-3">
+                                <i class="bi bi-question fs-5"></i>
+                            </div>
+                            <span class="f_raleway fw-bold span_left_ques">Ac odio tempor orci dapibus. Aliquam eleifend
+                                mi in nulla?<span>
+                        </div>
+                        <div class="col col-12 col-lg-7">
+                            <p class="p_right_ques color_4">
+                                Aperiam itaque sit optio et deleniti eos nihil quidem cumque. Voluptas dolorum
+                                accusantium sunt sit enim. Provident consequuntur quam aut reiciendis qui rerum dolorem
+                                sit odio. Repellat assumenda soluta sunt pariatur error doloribus fuga.
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+                <div class="col py-3">
+                    <div class="row mb-4 gy-4">
+                        <div class="col col-lg-5 col-12 d-flex">
+                            <div
+                                class="box_icon_ques d-flex justify-content-center align-items-center rounded-circle orange_color me-3">
+                                <i class="bi bi-question fs-5"></i>
+                            </div>
+                            <span class="f_raleway fw-bold span_left_ques">Tempus quam pellentesque nec nam aliquam sem
+                                et tortor consequat?</span>
+                        </div>
+                        <div class="col col-12 col-lg-7">
+                            <p class="p_right_ques color_4">
+                                Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est
+                                ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit
+                                adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end Questions -->
+    <!-- start contact  -->
+    <section class="contact_ pt-4 pb-5" id="contact">
+        <div class="container">
+            <div class="sec_top mt-5">
+                <div class="d-flex align-items-center">
+                    <h2 class="f_raleway text-uppercase fw-light m-0">Contact</h2>
+                    <div class="orange_bg_color text-center pb-0 ms-2 my_line"></div>
+                </div>
+                <div class="sec_top2 fw-bold m-0 text-uppercase">
+                    <span class="f_raleway">Need Help? Contact Us</span>
+                </div>
+            </div>
+            <div class="pt-4 row row-cols-1 row-cols-md-2 gy-3">
+                <div class="col">
+                    <div class="row gy-3 gx-4">
+                        <div class="col col-12">
+                            <div
+                                class="py-4 d-flex flex-column justify-content-center align-items-center text-center rounded-1 bg-white shadow my-1">
+                                <div
+                                    class="box_icon_contact rounded-circle orange_color d-flex justify-content-center align-items-center fs-4">
+                                    <i class="bi bi-geo-alt"></i>
+                                </div>
+                                <span class="my-2 f_raleway color_gray2 fs-5 fw-bold text-capitalize">address</span>
+                                <address class="address_contact">A108 Adam Street, New York, NY 535022</address>
+                            </div>
+                        </div>
+                        <div class="col col-6">
+                            <div
+                                class="py-4 d-flex flex-column justify-content-center align-items-center text-center rounded-1 bg-white shadow my-1">
+                                <div
+                                    class="box_icon_contact rounded-circle orange_color d-flex justify-content-center align-items-center fs-4">
+                                    <i class="bi bi-telephone"></i>
+                                </div>
+                                <span class="my-2 f_raleway color_gray2 fs-5 fw-bold text-capitalize">Call Us</span>
+                                <span class="span_contact">+1 5589 55488 55</span>
+                            </div>
+                        </div>
+                        <div class="col col-6">
+                            <div
+                                class="py-4 d-flex flex-column justify-content-center align-items-center text-center rounded-1 bg-white shadow my-1">
+                                <div
+                                    class="box_icon_contact rounded-circle orange_color d-flex justify-content-center align-items-center fs-4">
+                                    <i class="bi bi-geo-alt"></i>
+                                </div>
+                                <span class="my-2 f_raleway color_gray2 fs-5 fw-bold text-capitalize">Email Us</span>
+                                <span class="span_contact">info@example.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col pt-1">
+                    <div class="bg-white py-4 px-4 shadow contact_right rounded-1 h-100">
+                        <form action="" class="h-100">
+                            <div class="row gy-4 gx-4">
+                                <div class="col col-6">
+                                    <input type="text" placeholder="your name"
+                                        class="form-control text-capitalize rounded-0">
+                                </div>
+                                <div class="col col-6">
+                                    <input type="email" placeholder="your email"
+                                        class="form-control text-capitalize rounded-0">
+                                </div>
+                                <div class="col col-12">
+                                    <input type="text" placeholder="subject"
+                                        class="form-control text-capitalize rounded-0">
+                                </div>
+                                <div class="col col-12">
+                                    <textarea name="" class="form-control rounded-0" rows="5" id=""
+                                        placeholder="message"></textarea>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <a href=""
+                                        class="orange_button_unhover orange_button_contact text-capitalize btn rounded-pill">send
+                                        message</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end contact  -->
+    <!-- start footer  -->
+    <section class="footer_ pt-5 text-white text-capitalize">
+        <div class="container">
+            <div class="row g-3">
+                <div class="col col-12 col-md-6 col-lg-4 footer_item f_raleway fs-6">
+                    <div>
+                        <h1 class="f_raleway fw-bold fs-3 mb-5">multi</h1>
+                        <address>A108 Adam Street New York, NY 535022</address>
+                        <div class="phone_footer mb-1">
+                            <span class="fw-bold me-1">phone:</span><span>+1 5589 55488 55</span>
+                        </div>
+                        <div class="email_footer">
+                            <span class="fw-bold me-1">email:</span><span>info@example.com</span>
+                        </div>
+                        <ul class="list-unstyled d-flex mt-3">
+                            <li class="box_link_icon ms-0">
+                                <a href="" class="d-block">
+                                    <div
+                                        class="box_icon_footer ms-0 rounded-circle d-flex justify-content-center align-items-center">
+                                        <i class="bi bi-twitter-x"></i>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="box_link_icon">
+                                <a href="" class="d-block">
+                                    <div
+                                        class="box_icon_footer rounded-circle d-flex justify-content-center align-items-center">
+                                        <i class="bi bi-facebook"></i>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="box_link_icon">
+                                <a href="" class="d-block">
+                                    <div
+                                        class="box_icon_footer rounded-circle d-flex justify-content-center align-items-center">
+                                        <i class="bi bi-instagram"></i>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="box_link_icon">
+                                <a href="" class="d-block">
+                                    <div
+                                        class="box_icon_footer rounded-circle d-flex justify-content-center align-items-center">
+                                        <i class="bi bi-linkedin"></i>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col col-12 col-md-6 col-lg-2 footer_item">
+                    <div>
+                        <span class="f_raleway fw-bold fs-6 mb-3 d-inline-block">Useful Links</span>
+                        <ul class="list-unstyled">
+                            <li><a href=""
+                                    class="text-decoration-none color_gray useful_our_link d-inline-block orange_color_hover fw-medium">home</a>
+                            </li>
+                            <li><a href=""
+                                    class="text-decoration-none color_gray useful_our_link d-inline-block orange_color_hover fw-medium">about
+                                    us</a></li>
+                            <li><a href=""
+                                    class="text-decoration-none color_gray useful_our_link d-inline-block orange_color_hover fw-medium">services</a>
+                            </li>
+                            <li><a href=""
+                                    class="text-decoration-none color_gray useful_our_link d-inline-block orange_color_hover fw-medium">terms
+                                    of service</a></li>
+                            <li><a href=""
+                                    class="text-decoration-none color_gray useful_our_link d-inline-block orange_color_hover fw-medium">privacy
+                                    policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col col-12 col-md-6 col-lg-2 footer_item">
+                    <div>
+                        <span class="f_raleway fw-bold fs-6 mb-3 d-inline-block">our services</span>
+                        <ul class="list-unstyled">
+                            <li><a href=""
+                                    class="text-decoration-none color_gray useful_our_link d-inline-block orange_color_hover fw-medium">web
+                                    design</a></li>
+                            <li><a href=""
+                                    class="text-decoration-none color_gray useful_our_link d-inline-block orange_color_hover fw-medium">web
+                                    development</a></li>
+                            <li><a href=""
+                                    class="text-decoration-none color_gray useful_our_link d-inline-block orange_color_hover fw-medium">Product
+                                    Management</a></li>
+                            <li><a href=""
+                                    class="text-decoration-none color_gray useful_our_link d-inline-block orange_color_hover fw-medium">marketing</a>
+                            </li>
+                            <li><a href=""
+                                    class="text-decoration-none color_gray useful_our_link d-inline-block orange_color_hover fw-medium">graphic
+                                    design</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col col-12 col-md-6 col-lg-4 newsletter_footer">
+                    <div>
+                        <span class="f_raleway fw-bold d-inline-block mb-3">Our Newsletter</span>
+                        <p class="fw-medium">
+                            Subscribe to our newsletter and receive the latest news about our products and services!
+                        </p>
+                        <div class="input-group box_input_footer mt-4 ">
+                            <input type="text" class="bg-transparent form-control">
+                            <a href=""
+                                class="button_input_footer rounded-1 text-decoration-none text-white">subscribe</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="color_gray2 mb-0">
+            <div class="box_copy d-flex flex-column align-items-center py-4">
+                <div>
+                    <span><i class="bi bi-c-circle"></i> copyright <span
+                            class="fw-bold d-inline-block mx-1">multi</span> All Rights Reserved</span>
+                </div>
+                <div>
+                    <span class="fs_13">Designed by <span class="orange_color fs_13">BootstrapMade</span></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end footer  -->
+    <!-- start box top icon  -->
+    <div class="">
+        <div class="position-fixed box_top_icon rounded-1 fs-4 ">
+        <a href="" class="d-inline-block d-flex justify-content-center align-items-center text-white rounded-1">
+            <i class="bi bi-arrow-up-short"></i>
+        </a>
+    </div>
+    </div>
+    <!-- end box top icon  -->
+</body>
+
+</html>

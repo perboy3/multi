@@ -1,0 +1,579 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.f_raleway{
+    font-family: "Raleway", sans-serif;
+}
+.f_roboto{
+    font-family: "Roboto", sans-serif;
+}
+.f_pop{
+    font-family: "Poppins", sans-serif;
+}
+.fs_13{
+    font-size: 13px !important;
+}
+.f_14{
+    font-size: 14px !important;
+}
+.orange_color_hover:hover{
+    color: #ed502e !important;
+    transition: 0.3s !important;
+}
+.orange_color{
+    color: #ed502e;
+}
+.color_gray{
+    color: #b2b2b2;
+}
+.color_4{
+    color: #444444;
+}
+.color_gray2{
+    color: #626262 !important;
+}
+.color_black_blue{
+    color: #0b2341;
+}
+.orange_bg_color{
+    background-color: #ed502e;
+    transition: 0.2s;
+}
+.button_border{
+    border: 1px solid #ed502e;
+    background-color: transparent !important;
+    color: #ed502e !important;
+    padding: 8px 35px 10px;
+    transition-duration: 400ms;
+}
+.button_border:hover{
+    color: white !important;
+    background-color: #ed502e !important;
+}
+.color_sec{
+    color: #999999 !important;
+}
+.orange_bg_color:hover{
+    background-color: #e67e66 !important;
+}
+.orange_button_unhover{
+    background-color: #ed502e !important;
+    padding: 8px 30px;
+    text-transform: capitalize;
+    color: white !important;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+.orange_button{
+    background-color: #ed502e;
+    padding: 7px 30px;
+    text-transform: capitalize;
+    color: white;
+    transition: 0.5s;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+.orange_button:hover{
+    background-color: #e67e66 !important;
+    opacity: 70%;
+}
+.f_18{
+    font-size: 18px !important;
+}
+.color_green{
+    color: green;
+}
+.w_20{
+    width: 20% !important;
+}
+/* strat nav  */
+.navbar h4{
+    font-size: 26px !important;
+}
+.navbar li{
+    padding: 18px 15px !important;
+
+}
+.nav h4{
+    font-size: 26px !important;
+}
+.nav li{
+    padding: 18px 15px !important;
+}
+/* end nav  */
+/* start header  */
+.slide_1{
+    background: linear-gradient(rgba(0,0,0,0.7) , rgba(0,0,0,0.7)) , url(../Imgs/01-alan-wake-2-desktop-1.jpg) !important;
+}
+.slide_2{
+    background: linear-gradient(rgba(0,0,0,0.7) , rgba(0,0,0,0.7)) , url(../Imgs/02-marvels-spider-man-2-desktop-1.jpg) !important;
+}
+.slide_3{
+    background: linear-gradient(rgba(0,0,0,0.7) , rgba(0,0,0,0.7)) , url(../Imgs/03-starfield-desktop-1.jpg) !important;
+}
+.slide_item{
+    background-position: center !important;
+    background-size: cover !important; 
+    height: 450px;
+    display: block;
+    width: 100%;
+}
+.carousel-item h2{
+    font-size: 48px;
+}
+.carousel-item p{
+    font-size: 16px;
+}
+.w_53{
+    width: 53%;
+}
+/* end header  */
+/* start about  */
+.sec_top{
+    margin-bottom: 50px !important;
+}
+.sec_top h2{
+    color: #444444 !important;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+.my_line{
+    width: 120px;
+    height: 1px;
+}
+.sec_top{
+    line-height: 1;
+}
+.under_line{
+    padding-bottom: 12px;
+}
+.sec_top2 span{
+    font-size: 28px;
+    letter-spacing: 0.5px;
+    color: #0b2341 !important;
+}
+.check_item{
+    font-size: 17px;
+}
+.check_item span{
+    color: #444444;
+}
+.icon_link{
+    padding-bottom: 23px;
+}
+.about_right a:hover{
+    color: white !important;
+}
+.box_icon{
+    width: 55px;
+    height: 55px;
+}
+.sec2_box{
+    padding-left: 13px;
+    padding-right: 13px;
+}
+.about_col_item{
+    background-color: white;
+}
+.about_sec3_item h3{
+    font-size: 20px;
+}
+.about_sec3_item p{
+    font-size: 15px;
+}
+.about_sec3_item li i{
+    font-size: 18px;
+}
+.about_sec3_item li span{
+    font-size: 14px;
+    margin-left: 5px;
+}
+/* end about  */
+/* start services  */
+.service_item{
+    border: 1px solid #d4d4d4;
+    transition-duration: 400ms;
+    height: 360px;
+    background-color: white;
+    margin-bottom: 0 !important;
+}
+.service_item:hover{
+    background-color: #ed502e;
+    color: white !important;
+    cursor: pointer;
+}
+.service_item:hover p{
+    color: white;
+}
+.service_item:hover .service_box_icon{
+    background-color: white;
+    color: #ed502e;
+}
+.service_item h3{
+    font-size: 23px;
+}
+.service_item p{
+    font-size: 14px;
+}
+.service_box_icon{
+    width: 65px;
+    height: 65px;
+    background-color: #ed502e;
+    color: white;
+    font-size: 28px;
+    box-shadow: -7px -7px #ffe4dd;
+    transition-duration: 400ms;
+}
+.box_service_item{
+    height: 500px;
+}
+/* end services  */
+/* start testimonials  */
+.testimonials{
+    background-color: #f7f9fd;
+    padding-bottom: 150px !important;
+}
+.carousel_item_testi{
+    background-color: #ffffff;
+    padding-left: 70px !important;
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+    /* margin-left: 40px !important; */
+}
+.carousel_item_testi h3{
+    font-size: 18px !important;
+    margin: 10px 0px 5px !important;
+}
+.carousel_item_testi h4{
+    font-size: 14px !important;
+}
+.carousel_item_testi p{
+    font-size: 15px;
+    width: 95%;
+    font-style: italic !important;
+}
+.box_img_testi{
+    width: 90px;
+    height: 90px;
+    top: 30px;
+    left: 0;
+}
+.icon_testi_box{
+    color: #ffc107 !important;
+}
+.icon_q{
+    color: #fa95f7;
+    display: inline-block;
+    font-size: 30px !important;
+}
+.icon_q_2{
+    transform: rotate(180deg) !important;
+}
+.carousel_indicator_box{
+    top: 100%;
+}
+.carousel_indicator_box button{
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 50% !important;
+    background-color: white !important;
+    border: 1px solid #ed502e !important; 
+}
+.carousel_indicator_box .active{
+    background-color: #ed502e !important;
+}
+/* end testimonials  */
+/* start call  */
+.call_to{
+    background: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)) , url(../Imgs/13-The-Legend-of-Zelda-Tears-of-the_Kingdom-wallpaper-desktop-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px;
+}
+.call_to a{
+    border: 2px solid white;
+    background: transparent;
+}
+.call_to a:hover{
+    background-color: #ed502e !important;
+}
+.call_to p{
+    margin-top: 10px;
+    margin-bottom: 20px !important;
+    width: 87%;
+}
+.call_to h3{
+    font-size: 30px;
+}
+/* end call  */
+/* start portfolio  */
+.list_port{
+    font-size: 18px;
+    color: #444444;
+}
+.list_port .active{
+    color: #ed502e;
+}
+.port_item{
+    background-color: white !important;
+}
+.port_item p{
+    font-size: 14px;
+    color: #7f7f7f;
+}
+.port_item h3{
+    font-size: 18px;
+    transition-duration: 400ms;
+}
+.port_item h3:hover{
+    color: #ed502e;
+    cursor: pointer;
+}
+.port_item:hover{
+    cursor: pointer;
+}
+.port_item:hover img{
+    transform: scale(1.2);
+    overflow: hidden;
+}
+.port_item img{
+        transition-duration: 400ms;
+
+}
+/* end portfolio  */
+/* start team  */
+.box_text_team{
+    right: 40px;
+    bottom: 30px;
+}
+.team_overlay1{
+    background: linear-gradient(transparent , rgba(0,0,0,0.9));
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    height: 100%;
+    transition-duration: 0.5s !important;
+}
+.team_item:hover .team_overlay1{
+    top: 0;
+}
+.name_team{
+    font-size: 18px;
+}
+.work_team{
+    font-size: 12px !important;
+    color: #878787 !important;
+}
+.team_overlay2{
+    background: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.9));
+    left: -20%;
+    transition-duration: 0.5s;
+}
+.team_item:hover .team_overlay2{
+    left: 0%;
+}
+
+/* end team  */
+/* start pricing  */
+.pricing{
+    margin-top: 100px !important;
+}
+.pricing_item{
+    background-color: white;
+    overflow: hidden;
+}
+.pricing_item i{
+    font-size: 25px !important;
+}
+.span1_pricing_item{
+    font-size: 20px;
+}
+.span2_pricing_item{
+    font-size: 48px;
+}
+.pricing_item_center{
+    border-top: 5px solid #ed502e;
+    max-height: 518px;
+}
+/* end pricing  */
+/* start questions */
+.box_icon_ques{
+    width: 19px;
+    height: 19px;
+    border: 1px solid #ed502e;
+}
+.span_left_ques{
+    font-size: 16px !important;
+}
+.p_right_ques{
+    font-size: 15px;
+}
+/* end questiosn  */
+/* start contact  */
+.contact_{
+    background-color: #f7f9fd;
+}
+.box_icon_contact{
+    width: 60px;
+    height: 60px;
+    border: 2px dotted #ed502e;
+}
+.address_contact{
+    font-size: 14px;
+    color: #444444;
+}
+.span_contact{
+    font-size: 14px;
+    color: #444444;
+}
+.contact_right{
+    max-height: 100%;
+}
+.contact_right ::placeholder{
+    color: #c5c5c5;
+}
+.contact_right form input:focus{
+    border: 1px solid #ed502e;
+    box-shadow: none;
+}
+.contact_right form textarea:focus{
+    border: 1px solid #ed502e;
+    box-shadow: none;
+}
+.orange_button_contact:hover{
+    background-color: #ff7c64 !important;
+}
+/* end contact  */
+/* start footer  */
+.footer_{
+    background-color: #060606 !important;
+}
+.footer_item address{
+    font-size: 14px !important;
+    width: 55% !important;
+}
+.phone_footer span{
+    font-size: 14px;
+}
+.email_footer span{
+    font-size: 14px;
+}
+.box_icon_footer{
+    border: 1px solid rgb(183, 183, 183);
+    width: 40px;
+    height: 40px;
+    transition-duration: 200ms ;
+    overflow: hidden;
+}
+.box_icon_footer:hover{
+    border-color: #ed502e;
+}
+.box_icon_footer:hover i{
+    color: #ed502e;
+}
+.box_icon_footer i{
+    color: rgb(183, 183, 183);
+    transition-duration: 200ms  ;
+}
+.box_icon_footer i:hover{
+    color: #ed502e;
+}
+.box_link_icon{
+    margin-right: 12px !important;
+}
+.useful_our_link{
+    font-size: 14px !important;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.newsletter_footer p{
+    font-size: 13px;
+    letter-spacing: 1;
+    color: #f6f6f6;
+}
+.button_input_footer{
+    padding: 10px 20px;
+    background-color: #ed502e;
+}
+.box_input_footer input{
+    border-color: #343434;
+}
+.box_input_footer input:focus{
+    border-color: #ed502e;
+    box-shadow: 0px 0px 10px #ed502e;
+}
+.box_copy span{
+    font-size: 14px
+}
+/* end footer  */
+/* start resposive  */
+@media (max-width: 575.98px) {
+    .team_overlay2 i{
+        font-size: 40px !important;
+    }
+    .work_team{
+        font-size: 20px !important;
+    }
+}
+@media (max-width: 768px) {
+    .team_overlay2 i{
+        font-size: 40px !important;
+    }
+    .work_team{
+        font-size: 20px !important;
+    }
+}
+@media (min-width: 768px) {
+    .team_overlay2 i{
+        font-size: 30px !important;
+    }
+    .work_team{
+        font-size: 15px !important;
+    }
+}
+@media (min-width: 992px) {
+    .team_overlay2 i{
+        font-size: 20px !important;
+    }
+    .work_team{
+        font-size: 13px !important;
+    }
+    .name_team{
+    font-size: 14px;
+}
+}
+@media (min-width: 1200px) {
+    .name_team{
+    font-size: 18px;    
+    }
+}
+@media (min-width: 1400px) {
+    .team_overlay2 i{
+        font-size: 25px !important;
+    }
+    .work_team{
+        font-size: 17px !important;
+    }
+    .name_team{
+    font-size: 20px;
+}
+}
+/* end responsive  */
+/* start box top icon  */
+.box_top_icon{
+    right: 20px;
+    bottom: 20px;
+}
+.box_top_icon a{
+    width: 40px;
+    height: 40px;
+    background-color: #ed502e;
+    transition-duration: 400ms;
+}
+.box_top_icon a:hover{
+    opacity: 60%;
+}
+/* end box top icon  */
